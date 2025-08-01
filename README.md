@@ -1,31 +1,31 @@
-# 🚗 Civic Sense Command Scraper
+# Civic Sense Command Scraper
 
 A specialized Reddit scraper focused on collecting discussions about civic sense, road rage, and bad driving behavior in India. Runs for a specified duration (default 10 minutes) and emails comprehensive reports.
 
-## ✨ Features
+## Features
 
-- ⏱️ **Command-based execution** - Run manually when needed
-- 🎯 **Targeted scraping** - Focuses on civic sense and traffic topics in India
-- 🚫 **Anti-bot detection** - Advanced techniques to avoid being blocked
-- 📧 **Email delivery** - Automatic email reports with attachments
-- 📊 **Comprehensive reports** - Multiple report formats (detailed, links, statistics)
-- 🔄 **Duplicate prevention** - Avoids collecting same posts multiple times
-- 📈 **Real-time monitoring** - Progress tracking and performance metrics
+-  **Command-based execution** - Run manually when needed
+-  **Targeted scraping** - Focuses on civic sense and traffic topics in India
+-  **Anti-bot detection** - Advanced techniques to avoid being blocked
+-  **Email delivery** - Automatic email reports with attachments
+-  **Comprehensive reports** - Multiple report formats (detailed, links, statistics)
+-  **Duplicate prevention** - Avoids collecting same posts multiple times
+-  **Real-time monitoring** - Progress tracking and performance metrics
 
-## 🚀 Quick Start
+##  Quick Start
 
 1. **Clone/Download the project**
 2. **Install dependencies**: `pip install -r requirements.txt`
 3. **Configure environment**: Copy `.env.example` to `.env` and fill in your details
 4. **Run the scraper**: `python civic_sense_scraper.py`
 
-## 📧 Email Setup
+##  Email Setup
 
 1. Enable 2-Factor Authentication on your Gmail account
 2. Generate an App-Specific Password (16 characters)
 3. Use this password in your `.env` file (not your regular Gmail password)
 
-## 🎯 What It Scrapes
+##  What It Scrapes
 
 **Topics:**
 - Civic sense in India
@@ -39,7 +39,7 @@ A specialized Reddit scraper focused on collecting discussions about civic sense
 - r/AskIndia, r/CarsIndia, r/indianbikes
 - Reddit-wide searches for civic sense keywords
 
-## 🛡️ Anti-Detection Features
+##  Anti-Detection Features
 
 - Random delays between requests (2-5 seconds)
 - Rotating user agents and headers
@@ -47,13 +47,13 @@ A specialized Reddit scraper focused on collecting discussions about civic sense
 - Realistic browser behavior simulation
 - Rate limiting compliance (~1 request per 2-3 seconds)
 
-## 📊 Report Types
+##  Report Types
 
 1. **Comprehensive Report** - Detailed analysis with statistics and full post data
 2. **Links Collection** - Quick reference with URLs and metadata
 3. **Session Statistics** - Performance metrics and content analysis
 
-## ⚙️ Configuration
+##  Configuration
 
 Edit `config.py` to customize:
 - Target subreddits
@@ -62,7 +62,7 @@ Edit `config.py` to customize:
 - Timing settings
 - Anti-detection parameters
 
-## 🔧 Usage Examples
+## Usage Examples
 
 -Run with default 10 minutes
 
@@ -74,7 +74,7 @@ Edit `config.py` to customize:
 -Stop early with Ctrl+C
 
 
-## 📈 Expected Results
+##  Expected Results
 
 **10-minute session typically collects:**
 - 50-150 unique posts
@@ -82,14 +82,14 @@ Edit `config.py` to customize:
 - 3 comprehensive report files
 - Automatic email delivery
 
-## 🚨 Important Notes
+##  Important Notes
 
 - **Respect Reddit's Terms of Service**
 - **Use reasonable delays** (don't spam requests)
 - **Monitor your usage** (check logs for any issues)
 - **Keep email credentials secure**
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 **Email not sending?**
 - Check Gmail app password (16 characters)
